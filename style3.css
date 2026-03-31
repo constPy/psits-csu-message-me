@@ -1,0 +1,62 @@
+body {
+   background: linear-gradient(135deg, #010856, #05042b);
+  height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  -webkit-tap-highlight-color: transparent;
+  justify-content: center;
+align-items: center;
+}
+
+.Container {
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 15px;
+  padding: 10px 10px 5px 10px;
+  width: 300px;
+  height: 85vh;
+  margin:0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+.iconContainer{
+  display:flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  padding:0;
+  margin:0;
+}
+.icon{
+  display:flex;
+  align-content: center;
+  height: 30px;
+  width:30px;
+  padding:0;
+ margin:0;
+ filter: drop-shadow(0 0 2px #00D8FF);
+}
+
+.Terms{
+font-size: 12px;
+padding: 0;
+margin:0;
+font-family: "iceland" , sans-serif;
+color: white;
+opacity: 40%;
+}
+
+.Privacy{
+  font-size: 12px;
+  padding: 0;
+  margin:0;
+  font-family: "iceland" , sans-serif;
+  color: white;
+  opacity: 40%;
+}
+p{
+  font-family: "iceland" , sans-serif;
+}
