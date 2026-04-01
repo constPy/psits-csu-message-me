@@ -5,7 +5,7 @@ body {
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; /* keeps gradient stable */
+    background-attachment: fixed; 
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -40,20 +40,20 @@ body {
 
 @media (min-width: 700px) {
     .form-container {
-        width: 500px;      /* wider form on desktop */
+        width: 500px;     
         padding: 30px;
     }
     input,
     textarea {
         
-        width: 100%;       /* expand to container width */
-        max-width: 477px;  /* keeps balance inside 500px form */
+        width: 100%;      
+        max-width: 477px;  
     }
     textarea {
-        height: 125px;     /* taller textarea for desktop typing */
+        height: 125px;    
     }
     button {
-        width: 100%;       /* matches input width */
+        width: 100%;    
         max-width: 494px;
         padding-left: 30px;
         padding-right: 30px;

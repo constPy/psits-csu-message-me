@@ -16,11 +16,11 @@ align-items: center;
   backdrop-filter: blur(12px);
   border-radius: 15px;
   padding: 10px 10px 5px 10px;
-  width: 90%;              /* more flexible width for mobile */
-  max-width: 300px;        /* keeps it neat on larger screens */
-  max-height: 80vh;        /* prevents overflow on mobile */
-  overflow-y: auto;        /* adds scroll if content is too long */
-  margin: 0 auto;          /* centers horizontally */
+  width: 90%;
+  max-width: 300px;      
+  max-height: 80vh;        
+  overflow-y: auto;      
+  margin: 0 auto;
   box-shadow: 0 5px 15px black;
   color: #fff;
 }
