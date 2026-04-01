@@ -28,7 +28,7 @@
      <img src="Photos/PSITScsu.png" class="Icon2">
      <p class="creditText"> Philippine Society of Information Technology Students - CSU</p>
      <img src="Photos/DesktopIcon.png" alt="Photos/DesktopIcon.png" class="DesktopIcon">
-     <p class="CoderName"> Basta<p/>
+     <p class="CoderName">Kheir Tahir</p>
      <a
    href="terms.html" class="Terms">Terms</a>
      <a href="PrivacyText.html" class="Privacy"> Privacy</a>
@@ -37,25 +37,6 @@
     </form>
   <!-- Load EmailJS library -->
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
-<!-- Your custom script -->
-<script>
-  emailjs.init('UX6DAsyKINOJELtFJ');
-
-  document.getElementById('contactForm').addEventListener('submit', function(e) {
-    e.preventDefault();
-
-    emailjs.send('service_aar3ob2', 'template_no9k2w8', {
-      message: document.getElementById('message').value,
-    })
-    .then(function(response) {
-      document.getElementById('status').textContent = 'Message sent!';
-      document.getElementById('contactForm').reset();
-    }, function(error) {
-      document.getElementById('status').textContent = 'Failed to send message.';
-      console.error('EmailJS error:', error);
-    });
-  });
-</script>
+<script src="script.js"></script>
 </body>
    </html>
