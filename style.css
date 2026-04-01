@@ -136,27 +136,25 @@ textarea:hover {
 
 button {
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
     text-shadow: 0 0 3px #6ae0ff;
-    background: rgb(0, 0, 0, 0);
-    border: solid white 5px;
-    box-shadow: 0 0 7px #6af5ff;
-    color: #fff;
+    background: rgb(55, 208, 255);
     padding: 10px;
     margin: 0;
-    border: 1px white solid;
+    border: none;
+     box-shadow: 0 0 7px #6af5ff;
     border-radius: 20px;
     width: 100%;
     cursor: pointer;
     font-family: "Google Sans Code", monospace;
     font-size: 15px;
-    transition: ease-out 0.3s;
+    transition: ease-out 0.2s;
 }
 
 button:active {
-    background: #00F9FF;
-    border: none;
-    color: #010856;
+    box-shadow: none;
+    background: #00fbff44;
+    color: white;
     font-weight: bold;
     user-select: none;
 }
