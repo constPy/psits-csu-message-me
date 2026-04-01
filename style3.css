@@ -16,12 +16,19 @@ align-items: center;
   backdrop-filter: blur(12px);
   border-radius: 15px;
   padding: 10px 10px 5px 10px;
-  width: 300px;
-  height: 85vh;
-  margin:0;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  width: 90%;              /* more flexible width for mobile */
+  max-width: 300px;        /* keeps it neat on larger screens */
+  max-height: 80vh;        /* prevents overflow on mobile */
+  overflow-y: auto;        /* adds scroll if content is too long */
+  margin: 0 auto;          /* centers horizontally */
+  box-shadow: 0 5px 15px black;
   color: #fff;
 }
+
+.Container::-webkit-scrollbar { 
+  background-color: transparent;
+}
+
 .iconContainer{
   display:flex;
   align-content: center;
