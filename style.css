@@ -1,11 +1,12 @@
 body {
-    min-height: 100vh; /* fills screen naturally */
+    min-height: 100vh;
+    /* fills screen naturally */
     background: linear-gradient(135deg, #010856, #05042b);
     display: flex;
     align-items: center;
     justify-content: center;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -41,19 +42,22 @@ body {
 @media (min-width: 700px) {
     .form-container {
 
-        width: 500px;     
+        width: 500px;
         padding: 0 20px 0 20px;
     }
+
     input,
     textarea {
-        width: 100%;      
-        max-width: 477px;  
+        width: 100%;
+        max-width: 477px;
     }
+
     textarea {
-        height: 125px;    
+        height: 125px;
     }
+
     button {
-        width: 100%;    
+        width: 100%;
         max-width: 494px;
         padding-left: 30px;
         padding-right: 30px;
@@ -90,11 +94,11 @@ body {
 
 @keyframes GlowingLogo {
     0% {
-         filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.7));
+        filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.7));
     }
-    100% {
-           filter: drop-shadow(0 0 15px rgba(0, 255, 255, 1))
 
+    100% {
+        filter: drop-shadow(0 0 15px rgba(0, 255, 255, 1))
     }
 }
 
@@ -109,7 +113,8 @@ textarea {
     color: #FFFFFF;
     text-shadow: 0 0 4px #00BEFF;
     display: flex;
-    width: 100%;          /* fills the form-container width */
+    width: 100%;
+    /* fills the form-container width */
     height: 80px;
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
@@ -136,13 +141,13 @@ textarea:hover {
 
 button {
     justify-content: center;
-    color: rgb(0, 0, 0);
-    text-shadow: 0 0 3px #6ae0ff;
-    background: rgb(55, 208, 255);
+    font-weight: 200;
+    background: #00fbff44;
     padding: 10px;
     margin: 0;
-    border: none;
-     box-shadow: 0 0 7px #6af5ff;
+    border: solid 1px #6ae0ff;
+    color: white;
+    text-shadow: 0 0 2px #6ae0ff;
     border-radius: 20px;
     width: 100%;
     cursor: pointer;
@@ -152,10 +157,11 @@ button {
 }
 
 button:active {
-    box-shadow: none;
-    background: #00fbff44;
-    color: white;
-    font-weight: bold;
+    font-weight: 700;
+    text-shadow: 0 0 3px #6ae0ff;
+    background: rgb(55, 208, 255);
+    box-shadow: 0 0 7px rgb(55, 208, 255) ;
+    color: rgb(0, 0, 0);
     user-select: none;
 }
 
@@ -184,7 +190,7 @@ button:active {
     justify-content: center;
     align-content: center;
     padding-bottom: 20px;
-    margin:0;
+    margin: 0;
 }
 
 .Icon2 {
